@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <>
       <h2 className="main_name">
-        Main page "Address book" <ContactPhoneTwoToneIcon />
+        Main page "Contact book" <ContactPhoneTwoToneIcon />
       </h2>
     </>
   );

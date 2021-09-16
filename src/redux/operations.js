@@ -21,7 +21,8 @@ import {
 } from './actions';
 
 axios.defaults.baseURL = 'https://connections-api.herokuapp.com';
-const token = {
+// 'https://contactbook-fill.herokuapp.com/'
+ const token = {
   set(token) {
     axios.defaults.headers.common.Authorization = `Bearer ${token}`;
   },
